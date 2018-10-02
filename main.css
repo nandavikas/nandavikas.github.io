@@ -39,6 +39,10 @@ footer {
     background-color: black;
     color: green;
 }
+footer.posts, nav.posts{
+    margin: none;
+    padding: none;
+    background-color: black;
 
 ul.posts { 
     margin: 20px auto 40px; 
