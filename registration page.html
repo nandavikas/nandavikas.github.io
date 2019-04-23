@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Bootstrap Integration-->
+  <title>MAS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/box.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<!--Nav Bar Toggle-->
+
+<div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.php">MAS</a>
+    </div>
+	<!-- Main Navbar-->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li> <a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+        <li class="active"><a href="checkattendance"><i class="fa fa-bars"></i>Check Attendence</a></li>
+		<li><a href="TeacherLogin.html"><i class="fa fa-bars"></i>Enroll Attendence</a></li>  
+		<li><a href="#"><i class="fa fa-users"></i>About</a></li>		
+        <li><a href="#"><i class="fa fa-envelope"></i>Contact Us</a></li>
+		<li><a href="#"><i class="fa fa-users"></i>Help</a></li>
+	  </ul>
+	  <!--Nav bar Right-->
+      <ul class="nav navbar-nav navbar-right">
+	  
+        <li><a href="registration page.html"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+		<li><a href="login page.html"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+		
+	  </ul>
+    </div>
+  </div>
+</nav>
+
+</div>	
+
+<div id="page5">
+<center>
+<h1>Sign Up</h1>
+<form class="form-inline" action="DisplayAttendance.html">
+  <div class="form-group" style="text-align: left;">
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" class="form-control" id="name" required="Please fill out this field">
+  </div>
+  <br>
+  <br>
+  <div class="form-group" style="text-align: left;">
+    <label for="roll_no">Roll No:</label>
+    <br>
+    <input type="text" class="form-control" id="roll_no" required="Please fill out this field">
+  </div>
+  <br>
+  <br>
+  <div class="form-group" style="text-align: left;">
+    <label for="Password">Password:</label>
+    <br>
+    <input type="text" class="form-control" id="Password" required="Please fill out this field">
+  </div>
+  <br>
+  <br>
+  <div class="form-group" style="text-align: left;">
+    <label for="re-Password">Confirm Password:</label>
+    <br>
+    <input type="Password" class="form-control" id="re-Password" required="Please fill out this field">
+  </div>
+  <br>
+  <br>
+  <input type="submit" class="btn btn-primary"><br><br>
+</form>
+    </center>
+
+</div>
+    
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook-official"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Copyright Text </p>
+        </div>
+    </footer>
+</body>
+</html>
