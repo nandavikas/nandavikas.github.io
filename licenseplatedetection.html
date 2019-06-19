@@ -66,11 +66,16 @@
       height:auto;
     }
     @media only screen and (max-width: 858px){
+    .crop
+      {
+        max-width:100%;
+        height:auto;
+      }
+    }
     .output
     {
       max-width:100%;
       height:auto;
-    }
     }
   /*@media only screen and (max-width: 858px){
     .img-output{
@@ -130,9 +135,9 @@
     <img class="img-output" src="projects/Threshold binary inverse.png">
     <li>Now Contours are drawn on the image in rectangular shape on the image which  subsequently gives the co-ordinates of license plate</li>
     <li>Crop the license plate with the obtained contours</li>
-    <img src="projects/Detected license plate.png">
+    <img class="crop" src="projects/Detected license plate.png">
     <li>Again apply tophat and binary thresholding on the obtained license plate</li>
-    <img src="projects/License plate.png">
+    <img class="crop" src="projects/License plate.png">
     <li>Now use image_to_string() method from Pytesseract which is used to extract the text from refined image.</li>
     <li>Print the String and also it can be saved to a text file</li>
     <img class="output" src="projects/Saved file.png"><br>
