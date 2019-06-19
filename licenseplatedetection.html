@@ -45,6 +45,10 @@
       font-size: 12px;
       letter-spacing: 5px;
   }
+    .img-output{
+      width:600px;
+      height:400px;
+    }
   iframe{
     max-width:100%;
     }
@@ -105,12 +109,12 @@
     <i><h4><b>The working of the project is demonstrated below<b></h4></i>
     <ul>
     <li>The image is taken as input using argparse.</li>
-    <img src="projects/a.jpg">
+    <img class="img-output" src="projects/a.jpg">
     <li>Given image is converted into gray scale image</li>
-    <img src="projects/gray image.png">
+    <img class="img-output" src="projects/gray image.png">
     <li>Black hat is applied on the obtained gray scale image and then it is followed by Threshold bianry inverse</li>
-    <img src="projects/Black hat.png">
-    <img src="projects/Threshold binary inverse.png">
+    <img class="img-output" src="projects/Black hat.png">
+    <img class="img-output" src="projects/Threshold binary inverse.png">
     <li>Now Contours are drawn on the image in rectangular shape on the image which  subsequently gives the co-ordinates of license plate</li>
     <li>Crop the license plate with the obtained contours</li>
     <img src="projects/Detected license plate.png">
